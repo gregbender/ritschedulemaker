@@ -1,0 +1,13 @@
+#
+# Table structure for table `schedule`
+#
+
+CREATE TABLE schedule (
+  id int(11) NOT NULL auto_increment,
+  schid varchar(6) NOT NULL default '',
+  time varchar(50) NOT NULL default '',
+  ip varchar(50) NOT NULL default '',
+  schedule longblob NOT NULL,
+  PRIMARY KEY  (id)
+) TYPE=MyISAM;
+

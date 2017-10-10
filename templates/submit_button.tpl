@@ -1,0 +1,1 @@
+<input type="submit" value="Show Advanced" name="advanced_submit">
